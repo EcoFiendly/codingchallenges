@@ -40,8 +40,8 @@ if __name__ == '__main__':
         exit(f"Usage: {sys.argv[0]} option FILENAMEs")
 
     if len(sys.argv[1]) == 2:
-        results = wc(sys.argv[2])
+        results = ccwc(sys.argv[2])
         print(results[sys.argv[1]])
     else:
-        results = wc(sys.argv[1])
+        results = ccwc(sys.argv[1])
         print(f"{results['-l']}   {results['-w']}   {results['-c']}   {sys.argv[1]}")
