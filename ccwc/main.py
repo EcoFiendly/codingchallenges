@@ -1,7 +1,7 @@
 import os
 import sys
 
-def wc(filename:str) -> dict:
+def ccwc(filename:str) -> dict:
     """
     Function takes a file and counts the number of bytes, lines, words and characters in the file
 
